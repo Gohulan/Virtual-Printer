@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PrinterSetup.exe" version="1.0.0.1" publicKeyToken="8545b96e04ba46cb" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="printer-green256_24941.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PrinterSetup" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PrinterSetup.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PrinterSetup.exe" size="157120">
+      <assemblyIdentity name="PrinterSetup" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0x6duDyq2Udz16vm0ng/hCF6Rho=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="printer-green256_24941.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XCq+GjbzQJzbWYDF1T3Sv5CJMzE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-0AB9P2O\admin" issuerKeyHash="ca5931dba05f7cf44a964beb0605226af8a83b37" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>TRgXvcLShOZI9O4rSusQdjZ2L3U=</DigestValue></Reference></SignedInfo><SignatureValue>XMdID3QA8eP4MpFIU7DcU+azL39Y5W5n/NeVaUetiWBiiCQ74hm8Ni8zFmWBCWQDJBSQGWF5P9/W/sjA3fTWzmkQ7ByB1x4W0rTRmMc3Se5kZX5HwP8e8zonFKjuEm6WsF214rzoNGRGRnePHfhN4GMosjaArYkQ7U++5+NNTmU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rlVYYqjndiZpoZBaXnGtJ8btt9RfhQvlGj1QeGi7+cUSIFyPgF6K/KnpYlwJAGf+PH0zBrTvwws1yDshMasgKIxn4S7QNynvlr/znW685/YROIVuIr9fGFGyikqLIX8S6ICKrzdJcJXfGGpLZZxI0gePF1qv60WDsdp8W9ercBU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="752f76367610eb4a2beef448e684d2c2bd17184d" Description="" Url=""><as:assemblyIdentity name="PrinterSetup.exe" version="1.0.0.1" publicKeyToken="8545b96e04ba46cb" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-0AB9P2O\admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZLzbejIzp1JyLm9+luj+h0+FjSM=</DigestValue></Reference></SignedInfo><SignatureValue>EpdVxGFbea8SRlrbUxT0/i2sqPjgsagCkq9XwwwbAKkZz++VX0ORDo3PvEyUEMI1XBZ/h5/bZpgHCu418bJJ9s8pT6I+bl1JWXaBJk/0jpTU4y7dPgFzjw1NmhY47VCWlS/psGIstSdVubSwVAQMYWB/9UgO+fJa2f/zVJ3PF60=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rlVYYqjndiZpoZBaXnGtJ8btt9RfhQvlGj1QeGi7+cUSIFyPgF6K/KnpYlwJAGf+PH0zBrTvwws1yDshMasgKIxn4S7QNynvlr/znW685/YROIVuIr9fGFGyikqLIX8S6ICKrzdJcJXfGGpLZZxI0gePF1qv60WDsdp8W9ercBU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFw4/CsZAHadHOXY5STP/EzANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADAAQQBCADkAUAAyAE8AXABhAGQAbQBpAG4wHhcNMjAwNzI4MTE0ODE1WhcNMjEwNzI4MTc0ODE1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADAAQQBCADkAUAAyAE8AXABhAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK5VWGKo53YmaaGQWl5xrSfG7bfUX4UL5Ro9UHhou/nFEiBcj4Beivyp6WJcCQBn/jx9Mwa078MLNcg7ITGrICiMZ+Eu0Dcp75a/851uvOf2ETiFbiK/XxhRsopKiyF/EuiAiq83SXCV3xhqS2WcSNIHjxdar+tFg7HafFvXq3AVAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAm55AP+gQ1LQrX3dBFLTXCtKfvzt1JWqDejMX6yucopSJKq4FOpzOsuXNpBRfrsnDsi+jCl8jFVt+e7SNKABD0z1SwXlK4U8kk6iX3NA44/bv+bdzEEy17LiXGasPwYfwTZdlUPu5i2kwge89M0DelC7JbPOFlBRXXy8NiQVC61w=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

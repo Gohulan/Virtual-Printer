@@ -1,0 +1,8 @@
+C:\Users\admin\source\repos\OperaVPrinter\bin\Debug\PrinterSetup.exe
+C:\Users\admin\source\repos\OperaVPrinter\bin\Debug\PrinterSetup.pdb
+C:\Users\admin\source\repos\OperaVPrinter\obj\Debug\PrinterSetup.MainForm.resources
+C:\Users\admin\source\repos\OperaVPrinter\obj\Debug\VPrinter.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\OperaVPrinter\obj\Debug\VPrinter.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\OperaVPrinter\obj\Debug\PrinterSetup.exe
+C:\Users\admin\source\repos\OperaVPrinter\obj\Debug\PrinterSetup.pdb
+C:\Users\admin\source\repos\OperaVPrinter\obj\Debug\VPrinter.csprojAssemblyReference.cache

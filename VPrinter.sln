@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPrinter", "VPrinter.csproj", "{FC1D0151-BAE5-4817-9CAB-B696CB4257EC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Opera_Virtual_Printer_Setup", "..\Opera_Virtual_Printer_Setup\Opera_Virtual_Printer_Setup.vdproj", "{E85D4407-AAE5-48F7-AB70-D2CB8C3C4315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC1D0151-BAE5-4817-9CAB-B696CB4257EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1D0151-BAE5-4817-9CAB-B696CB4257EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1D0151-BAE5-4817-9CAB-B696CB4257EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1D0151-BAE5-4817-9CAB-B696CB4257EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85D4407-AAE5-48F7-AB70-D2CB8C3C4315}.Debug|Any CPU.ActiveCfg = Debug
+		{E85D4407-AAE5-48F7-AB70-D2CB8C3C4315}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A94EF7-6AAF-4E0A-9CEB-12E488859931}
+	EndGlobalSection
+EndGlobal
